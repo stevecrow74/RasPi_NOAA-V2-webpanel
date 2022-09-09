@@ -5,7 +5,7 @@ Personalise the web panel
 
 This is my personalised webpanel from https://github.com/jekhokie/raspberry-noaa-v2<br>
 
-Replace the origional webpanel located /home/pi/raspberry-noaa-v2/webpanel<br>
+Replace or rename the origional webpanel located /home/pi/raspberry-noaa-v2/<br>
 with this one<br>
 
 Any changes are made at your own discression
@@ -33,6 +33,8 @@ When you think you are ready open open terminal and type<br>
 cd raspberry-noaa-v2/<br>
 ./install_and_upgrade.sh
 <p>
-After changes have taken effect, you should now have a Dark themed webpanel.<br>
+After changes have taken effect, you should now have a Dark themed webpanel.<br><p>
+  
 If you dont like it and want to revert back to the original<br>
-You can replace the files with the original at https://github.com/jekhokie/raspberry-noaa-v2/tree/master/webpanel.
+You can do this either by changing the new webpanel folder to something else and renaming the original webpanel back to its original name,or <br>
+You can replace the files with the original found at https://github.com/jekhokie/raspberry-noaa-v2/tree/master/webpanel.<br>
