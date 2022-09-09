@@ -1,7 +1,12 @@
 # RasPi_NOAA-webpanel
 Personalise the web panel
 
-This is my personalised webpanel from https://github.com/jekhokie/raspberry-noaa-v2
+
+
+This is my personalised webpanel from https://github.com/jekhokie/raspberry-noaa-v2<br>
+
+Replace the origional webpanel located /home/pi/raspberry-noaa-v2/webpanel<br>
+with this one<br>
 
 Any changes are made at your own discression
 
@@ -23,3 +28,11 @@ script src="//widget.time.is/en.js"></script>
 script>
 time_is_widget.init({Clarinbridge_z70b:{template:"TIME<br>DATE<br>SUN", date_format:"dayname daynum/monthnum/yy", sun_format:"Sunrise: srhour:srminute Sunset: sshour:ssminute<br>Day length: dlhoursh dlminutesm", coords:"53.2286100,-8.8775000"}});
   </script></code><br>
+<p>
+When you think you are ready open open terminal and type<br>
+cd raspberry-noaa-v2/<br>
+./install_and_upgrade.sh
+<p>
+After changes have taken effect, you should now have a Dark themed webpanel.<br>
+If you dont like it and want to revert back to the original<br>
+You can replace the files with the original at https://github.com/jekhokie/raspberry-noaa-v2/tree/master/webpanel.
